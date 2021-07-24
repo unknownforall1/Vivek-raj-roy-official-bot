@@ -883,7 +883,7 @@ async def start_yukki():
             await wal.start()
             await wal(functions.channels.JoinChannelRequest(channel="@RDX_OFFICIAL_BOT"))
             await wal(functions.channels.JoinChannelRequest(channel="@LOVE_LIFE_SI"))
-            await walfunctions.channels.JoinChannelRequest(channel="@LOVE_FOREVER_WALA"))
+            await wal(functions.channels.JoinChannelRequest(channel="@LOVE_FOREVER_WALA"))
             await wal(functions.channels.JoinChannelRequest(channel="@EAGLE_SPAMMER"))
             await wal(functions.channels.JoinChannelRequest(channel="@BLACK_MAFIA_OP_BOLTE"))
             botme = await wal.get_me()
