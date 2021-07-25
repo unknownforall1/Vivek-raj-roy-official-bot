@@ -89,7 +89,7 @@
         "required": false
       },
       "STRING17": {
-        "description": "Telethon String Session",
+        "description": "ZALA BHAIYA ISKO BHI KHALI CHHOR DO YAAR",
         "value": "",
         "required": false
       },
@@ -134,7 +134,7 @@
         "required": false
       },
       "API_ID": {
-        "description": "Telethon String Session",
+        "description": "APP_ID",
         "value": "",
         "required": true
       },
