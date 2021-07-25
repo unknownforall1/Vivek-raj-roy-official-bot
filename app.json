@@ -9,9 +9,9 @@
   ],
     "env": {
       "STRING": {
-        "description": "Telethon String Session",
+        "description": "NA DALIYEGA YE ZALA BHAI",
         "value": "",
-        "required": true
+        "required": false
       },
       "STRING2": {
         "description": "Telethon String Session",
