@@ -1,13 +1,13 @@
-# EAGLE SPEED X BOT 
+# ZALA SPEED X BOT 
 ## DEPLOY ON 30 ID AT A TIME
 
 #### MODIFIED OF [YUKKI-MULTI-SPAM-BOT](https://github.com/YukkiBot/YukkiMultiSpamBot)
 #### YUKKI MODIFIED BY
    
    - [SIDDHANT DEVIL](https://t.me/SIDDHANT_DEVIL)
-   
+   - [ZALA]()
 <p align="center">
-  <img src="https://telegra.ph/file/11ce51776313916596a.jpg">
+  <img src="">
 </p>
 
 
@@ -26,10 +26,10 @@ No Requirement of API ID and API HASH
 
 
 ## SUPPORT GROUP
-   - Join [EAGLE GROUP](https://t.me/BLACK_MAFIA_OP_BOLTE) for any assistance.
+   - Join [GROUP](https://t.me/BLACK_MAFIA_OP_BOLTE) for any assistance.
 
 ## JOIN SUPPORT CHANNEL
-   - Join [EAGLE SUPPORT CHANNEL](https://t.me/EAGLE_SPAMMER).
+   - Join [SUPPORT CHANNEL](https://t.me/EAGLE_SPAMMER).
 
 ## JOIN  [SIDDHANT'S CHANNEL](https://t.me/UNKNOWN_FOR_ALL)
 
