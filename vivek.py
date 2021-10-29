@@ -1312,6 +1312,42 @@ async def spam(e):
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
+@vk.on(events.NewMessage(incoming=True, pattern=r"/GANGSTER"))
+
+async def spam(e):
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗥𝗮𝗶𝗱\n\nCommand:\n\n.raid <count> <Username of User>\n\n.raid <count> <reply to a User>\n\nCount must be a integer."
+    if e.sender_id in SMEX_USERS:
+        if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
+            return await e.reply(usage, parse_mode=None, link_preview=None )
+        d3vil = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        smex = await e.get_reply_message()
+        if len(d3vil) == 2:
+            message = str(d3vil[1])
+            print(message)
+            a = await e.client.get_entity(message)
+            g = a.id
+            username = f"[{GANGSTER}](tg://user?id={g})"
+            counter = int(d3vil[0])
+            for _ in range(counter):
+                reply = random.choice(RAID)
+                caption = f"{username} {reply}"
+                async with e.client.action(e.chat_id, "typing"):
+                    await e.client.send_message(e.chat_id, caption)
+                    await asyncio.sleep(1.0)
+        elif e.reply_to_msg_id:             
+            a = await e.get_reply_message()
+            b = await e.client.get_entity(a.sender_id)
+            g = b.id
+            counter = int(d3vil[0])
+            username = f"[GANGSTER](tg://user?id={g})"
+            for _ in range(counter):
+                reply = random.choice(RAID)
+                caption = f"{username} {reply}"
+                async with e.client.action(e.chat_id, "typing"):
+                    await e.client.send_message(e.chat_id, caption)
+                    await asyncio.sleep(1.0)
+        else:
+            await e.reply(usage, parse_mode=None, link_preview=None )
 
 
 
