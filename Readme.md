@@ -1,11 +1,11 @@
-# ZALA SPEED X BOT 
+#  VIVEK RAJ ROY OFFICIAL SPEED X BOT 
 ## DEPLOY ON 30 ID AT A TIME
 
 #### MODIFIED OF [YUKKI-MULTI-SPAM-BOT](https://github.com/YukkiBot/YukkiMultiSpamBot)
 #### YUKKI MODIFIED BY
    
-   - [SIDDHANT DEVIL](https://t.me/SIDDHANT_DEVIL)
-   - [ZALA]()
+   - [VIVEK RAJ ROY ](https://t.me/SIDDHANT_DEVIL)
+   - [SIDDHANT ]( https://t.me/x_siddhant_devil_x)
 <p align="center">
   <img src="">
 </p>
